@@ -1,0 +1,91 @@
+/*START*/
+/*enabled footer to rest at bottom of page*/
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+/*END*/
+
+#imageRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form {
+    margin: 25px auto;
+}
+
+#titleForm {
+    text-align: center;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+.delete-form {
+    display: inline;
+}
+
+.form-h1 {
+    text-align: center;
+}
+
+.form-div {
+    margin: 25px auto;
+}
+
+.profile-div {
+    width: 75%;
+    margin: 25px auto;
+}
+
+
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.forgot {
+    float: right;
+}
+
+.buffer {
+    margin-bottom: 20px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.backButton {
+    margin: 20px;
+}
