@@ -21,7 +21,7 @@ var commentRoutes    = require("./routes/comments"),
 // assign mongoose promise library and connect to database
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb+srv://Admin:' + process.env.DATABASEPW + '@yelp-camp-l1wlx.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
+mongoose.connect('mongodb://localhost:27017/yelp_camp', { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
       .then(() => console.log(`Database connected`))
       .catch(err => console.log(`Database connection error: ${err.message}`));
 
