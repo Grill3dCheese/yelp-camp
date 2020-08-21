@@ -6,8 +6,8 @@
 - The app relies on RESTful architecture and CRUD cycles.
 
 Developed using:
-- HTMl5
-- CSS 3
+- HTML5
+- CSS3
 - JavaScript
 - Bootstrap 4
 - NodeJS
