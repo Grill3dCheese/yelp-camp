@@ -1,9 +1,18 @@
-# Yelp-camp
+# Yelp Camp Web Application
 
-# This project is a Yelp-like application where users can post campsites they've visited, list a description of the site, pricing and location for others to review. Users can also leave comments about the particular site they are viewing.
+- This project is a Yelp-like application where users can post campsites they've visited, list a description of the site, pricing and location for others to review.
+	- Visitors/other users can also leave comments on the particular campsite they are viewing.
 
-# The app uses RESTful architecture and CRUD cycles. Developed using JS/NodeJS, HTML, CSS, Bootstrap 4 and templated using Express.
+- The app relies on RESTful architecture and CRUD cycles.
 
-# Authentication provided by -- Passport
+Developed using:
+- HTMl5
+- CSS 3
+- JavaScript
+- Bootstrap 4
+- NodeJS
+- NPM Packages
+- Express
+- MongoDB
 
-# Also includes flash messaging along with other NPM packages.
+🔐 Authentication powered by -- Passport
